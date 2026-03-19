@@ -14,7 +14,6 @@ A lightweight full-stack web app for downloading HLS-streamed videos and subtitl
 
 - **Video download** — takes a video ID, detects the best available resolution (1080p → 360p), and downloads the HLS stream as an `.mp4`
 - **Live progress tracking** — the UI polls the server every second and updates a progress bar in real time, no page reloads
-- **Subtitle export** — fetches and downloads English caption files (`.vtt`) for videos that have them
 - **File serving** — streams the downloaded file directly back to the browser via a download prompt
 
 ---
